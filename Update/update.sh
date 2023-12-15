@@ -5,4 +5,5 @@ source "$DIR/config.sh"
 
 echo "Updating Packages...."
 sleep 2 
-cp menu $DIR/AMAP/Files/Images/
+echo "Installing new Menu"
+cp menu $DIR/AMAP/Files/Images
