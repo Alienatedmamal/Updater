@@ -3,4 +3,4 @@ DIR="$(cd "$(dirname "$0")"/../../../../ && pwd)"
 source "$DIR/config.sh"
 
 
-echo $SAY
+echo "$TESTING="$SAY this is a test" >> $DIR/AMAP/config.sh
