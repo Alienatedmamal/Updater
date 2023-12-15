@@ -1,10 +1,13 @@
 #!/bin/bash
 DIR="$(cd "$(dirname "$0")"/../../../../ && pwd)"
-source "$DIR/config.sh"
+source "$DIR/AMAP/config.sh"
+
+
+
 
 
 echo "Updating Packages...."
-sleep 2 
-echo "Installing new Menu"
-cp -f $DIR/Files/Updater/Update/menu $DIR/Files/Images
+sleep 2
+#echo "Installing new Menu"
+#cp -f $DIR/AMAP/Files/Updater/Update/menu $DIR/AMAP/Files/Images
 echo "Finished"
