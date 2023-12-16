@@ -6,7 +6,7 @@ echo "Updating Packages...."
 sleep 2
 echo "Updating Menu...."
 sleep 2
-cp -f $DIR/Updater/Update/menu $DIR/Files/Images
+cp -f $DIR/Updater/Update/menu $DIR/Files/Images/
 echo "Updates have been installed"
 sleep 1
 exit 0 
