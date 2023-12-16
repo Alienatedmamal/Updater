@@ -4,7 +4,7 @@ source "$DIR/config.sh"
 
 
 echo "Updater Is Now Running"
-echo 2
+sleep 2
 echo "Updating Version File...."
 sleep 2
 cp -f $DIR/Updater/Update/version.txt $DIR/Files/
