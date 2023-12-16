@@ -11,5 +11,5 @@ sleep 2
 echo "Installing new Menu"
 echo $DIR/AMAP/Files/Updater
 
-#cp -f $DIR/AMAP/Files/Updater/Update/menu $DIR/AMAP/Files/Images
+cp -f $DIR/AMAP/Files/Updater/Update/menu $DIR/AMAP/Files/Images
 echo "Finished"
