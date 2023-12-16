@@ -11,8 +11,8 @@ cp -f $DIR/Updater/Update/version.txt $DIR/Files/
 echo "Version File Updated" || echo "Version File FAILD to Update"
 sleep 2
 cat $DIR/Updater/Update/Updates
-sleep 5
-echo "Press ENTER to continue"
+sleep 3
 echo "Updater has finished"
+echo "Press ENTER to continue"
 read -r
 exit 0 
