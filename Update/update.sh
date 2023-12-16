@@ -7,10 +7,7 @@ sleep 2
 echo "Installing new Menu"
 sleep 1
 cp -f $DIR/AMAP/Files/Updater/Update/menu $DIR/AMAP/Files/Images
-echo "Adding new parameters"
-sleep 2
-echo 
-
-echo 
-cat $DIR/AMAP/Files/Updater/Update/AMAP.sh >> $DIR/AMAP/AMAP.sh
-sleep 2
+sleep 1 
+echo "Updates have been installed"
+sleep 1
+exit 0 
