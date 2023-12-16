@@ -1,6 +1,8 @@
 Updates: 
 
-    v2.0.6
+- Updater will remove the folder after updates are completed. 
+
+    v2.0.6.1
    .-""""-.    
   /        \   
  /_        _\  
