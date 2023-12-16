@@ -6,7 +6,7 @@ source "$DIR/config.sh"
 desired_version="2.0.6"
 
 # File to check version. 
-version_file="$DIR/Files/"
+version_file="$DIR/Files/version.txt"
 
 # Check if the file exists
 if [ -e "$version_file" ]; then
