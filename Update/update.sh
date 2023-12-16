@@ -13,5 +13,6 @@ sleep 2
 cat $DIR/Updater/Update/Updates
 sleep 5
 echo "Press ENTER to continue"
+echo "Updater has finished"
 read -r
 exit 0 
