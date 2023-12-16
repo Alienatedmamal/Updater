@@ -14,7 +14,7 @@ cp -f $DIR/Updater/Update/backup $DIR/Files/Images/
 sleep 1
 echo "Version Change v2.0.6..." 
 sleep 3
-cp =f $DIR/Updater/Update/logo $DIR/Files/Images/
+cp -f $DIR/Updater/Update/logo $DIR/Files/Images/
 echo "Updates have been installed"
 sleep 2
 cat $DIR/Updater/Update/Updates
