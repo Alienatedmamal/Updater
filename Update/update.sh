@@ -9,5 +9,5 @@ sleep 2
 cp -f $DIR/Updater/Update/menu $DIR/Files/Images/
 echo "Updates have been installed"
 cat $DIR/Updater/Update/Updates
-sleep 1
+sleep 5
 exit 0 
