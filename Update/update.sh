@@ -7,7 +7,7 @@ echo "Updater Is Now Running"
 sleep 2
 echo "Updating Schedule...."
 sleep 2 
-cp -f $DIR/Updater/Updater/Schedule.sh $DIR/Files/Scripts/
+cp -f $DIR/Updater/Update/Schedule.sh $DIR/Files/Scripts/
 echo "Schedule Updated" || echo "Schedule Failed to Update"
 sleep 2
 echo "Updating Version File...."
