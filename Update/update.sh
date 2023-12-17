@@ -5,10 +5,10 @@ source "$DIR/config.sh"
 
 echo "Updater Is Now Running"
 sleep 2
-echo "Updating Wipe Configurator...."
+echo "Updating Schedule...."
 sleep 2 
-cp -f $DIR/Updater/Updater/wipeconfigure.sh $DIR/Files/Scripts/
-echo "Wipe Configurator Updated" || echo "WIpe Configurator Failed to Update"
+cp -f $DIR/Updater/Updater/Schedule.sh $DIR/Files/Scripts/
+echo "Schedule Updated" || echo "Schedule Failed to Update"
 sleep 2
 echo "Updating Version File...."
 sleep 2
