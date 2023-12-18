@@ -10,11 +10,6 @@ sleep 2
 cp -f $DIR/Updater/Update/Schedule.sh $DIR/Files/Scripts/
 echo "Schedule Updated" || echo "Schedule Failed to Update"
 sleep 2
-echo "Updating Wipe Configurator...."
-sleep 2
-cp -f $DIR/Updater/Update/wipeconfigure.sh $DIR/Files/Scripts/
-echo "Wipe Configurator Updated" || echo "Failed to Update Wipe Configurator"
-sleep 2 
 echo "Updating Version File...."
 sleep 2
 cp -f $DIR/Updater/Update/version.txt $DIR/Files/
