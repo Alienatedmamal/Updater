@@ -11,7 +11,7 @@ cp -f $DIR/Updater/Update/Schedule.sh $DIR/Files/Scripts/
 echo "Schedule Updated" || echo "Schedule Failed to Update"
 sleep 2
 echo "Updating Logo...."
-cp -f $DIR/Updater/Update/logo.txt $DIR/Files/Images/
+cp -f $DIR/Updater/Update/logo $DIR/Files/Images/
 echo "Logo Updated" || echo "Failed to Updated"
 sleep 2
 echo "Updating Version File...."
