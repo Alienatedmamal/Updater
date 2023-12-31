@@ -5,12 +5,8 @@ source "$DIR/config.sh"
 
 echo "Updater Is Now Running"
 sleep 2
-echo "Updating Schedule...."
-sleep 2 
-cp -f $DIR/Updater/Update/Schedule.sh $DIR/Files/Scripts/
-echo "Schedule Updated" || echo "Schedule Failed to Update"
-sleep 2
 echo "Updating Logo...."
+sleep 1 
 cp -f $DIR/Updater/Update/logo $DIR/Files/Images/
 echo "Logo Updated" || echo "Failed to Updated"
 sleep 2
