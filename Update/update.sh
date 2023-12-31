@@ -10,6 +10,16 @@ sleep 1
 cp -f $DIR/Updater/Update/wipeconfigure.sh $DIR/Files/Scripts/
 echo "Wipeconfigure Updated"
 sleep 2
+echo "Updating Fullwipe.sh...."
+sleep 1 
+cp -f $DIR/Updater/Update/Fullwipe.sh $DIR/Files/Scripts/
+echo "Fullwipe Updated"
+sleep 2 
+echo "Updating Mapwipe.sh...."
+sleep 1 
+cp -f $DIR/Updater/Update/Mapwipe.sh $DIR/Files/Scripts/
+echo "Mapwipe Updated"
+sleep 2 
 echo "Updating Logo...."
 sleep 1 
 cp -f $DIR/Updater/Update/logo $DIR/Files/Images/
