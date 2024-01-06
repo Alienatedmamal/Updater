@@ -5,11 +5,11 @@ source "$DIR/config.sh"
 
 echo "Updater Is Now Running"
 sleep 2
-echo "Updating Wipeconfigure.sh...."
-sleep 1 
-cp -f $DIR/Updater/Update/wipeconfigure.sh $DIR/Files/Scripts/
-echo "Wipeconfigure Updated"
-sleep 2
+#echo "Updating Wipeconfigure.sh...."
+#sleep 1 
+#cp -f $DIR/Updater/Update/wipeconfigure.sh $DIR/Files/Scripts/
+#echo "Wipeconfigure Updated"
+#sleep 2
 echo "Updating Fullwipe.sh...."
 sleep 1 
 cp -f $DIR/Updater/Update/Fullwipe.sh $DIR/Files/Scripts/
