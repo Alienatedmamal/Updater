@@ -6,6 +6,7 @@ source "$DIR/config.sh"
 #Stops Server, Updates, Updates Mods, Performs Full Wipe.  
 	$SAYDATE $SCRIPTFULL $SERVERNAME Server will now stop.... >> $LOGS
 $USER $SERVER stop >> $LOGS
+$USER $SERVER update >> $LOGS
 	$SAYDATE $SCRIPTFULL $SERVERNAME Server Has Stopped >> $LOGS ||
         $SAYDATE $SCRIPTFULL $SERVERNAME Server Has Failed to Stop >> $LOGS
         $SAYDATE $SCRIPTFULL $SERVERNAME Server will now begin full wipe.... >> $LOGS
