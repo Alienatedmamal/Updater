@@ -1,5 +1,4 @@
 # AlienatedMammal's Admin Panel 
-## More information coming SOON!
 ```
                AAA               MMMMMMMM               MMMMMMMM               AAA               PPPPPPPPPPPPPPPPP
               A:::A              M:::::::M             M:::::::M              A:::A              P::::::::::::::::P
@@ -175,3 +174,5 @@ This will update AMAP if there is an update available.
 
 ### 10) Quit
 Quits/Closes AMAP 
+
+[GitHub](https://github.com/Alienatedmamal/NoobsOnTheRunPublic)
