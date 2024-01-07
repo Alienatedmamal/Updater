@@ -24,15 +24,20 @@ sleep 1
 cp -f $DIR/Updater/Update/Mapwipe.sh $DIR/Files/Scripts/
 echo "Mapwipe Updated"
 sleep 2 
+echo "Updating AMAP Dashboard...."
+sleep 1 
+cp -f $DIR/Updater/Update/AMAP.sh $DIR/
+cp -f $DIR/Updater/Update/AMAPNC.sh $DIR/
+echo "AMAP Dashboard Updated"
 echo "Updating Logo...."
 sleep 1 
 cp -f $DIR/Updater/Update/logo $DIR/Files/Images/
-echo "Logo Updated" || echo "Failed to Updated"
+echo "Logo Updated" 
 sleep 2
 echo "Updating Version File...."
 sleep 2
 cp -f $DIR/Updater/Update/version.txt $DIR/Files/
-echo "Version File Updated" || echo "Version File FAILD to Update"
+echo "Version File Updated" 
 sleep 2
 cat $DIR/Updater/Update/Updates
 sleep 2
